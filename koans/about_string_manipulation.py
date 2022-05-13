@@ -71,4 +71,4 @@ class AboutStringManipulation(Koan):
         self.assertEqual('OKAYY', 'okayy'.upper())
         self.assertEqual('ohno', 'OhNo'.lower())
         self.assertEqual('Green Grass Grows', 'green grass grows'.title())
-        self.assertEqual('RaWwwr', 'RaWwR'.swapcase())
+        self.assertEqual('HeLlo', 'hElLO'.swapcase())
